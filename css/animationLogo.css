@@ -1,4 +1,15 @@
-img {
-    height: 100px;
-    width: 100px;
+i {
+    font-size: 150px;
+    padding: 100px;
+    position: absolute;
+    animation-name: recolour;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
+
+@keyframes recolour {
+    from {font-size: 150px;}
+    to {font-size: 250px;}
+}
+
